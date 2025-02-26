@@ -21,22 +21,19 @@ const Pricing = () => {
             </div>
             <h3 className="h3 max-lg:h4 max-md:h5 text-p4">
             Prenez rendez-vous maintenant            </h3>
-            <div className="pricing-bg">
-              <img
-                src="/images/bg-outlines.svg"
-                width={960}
-                height={380}
-                alt="outline"
-                className="relative z-2"
-              />
-              <img
-                src="/images/bg-outlines-fill.png"
-                width={960}
-                height={380}
-                alt="outline"
-                className="absolute inset-0 opacity-5 mix-blend-soft-light"
-              />
-            </div>
+            <div className=" absolute w-full max-w-full sm:max-w-[80%] md:max-w-[70%] lg:max-w-[960px]  mx-auto">
+  <img
+    src="/images/bg-outlines.svg"
+    alt="outline"
+    className="relative z-2 w-full h-auto max-w-full sm:max-w-[80%] md:max-w-[70%] lg:max-w-[960px]"
+  />
+  <img
+    src="/images/bg-outlines-fill.png"
+    alt="outline"
+    className="absolute inset-0 w-full h-auto max-w-full sm:max-w-[80%] md:max-w-[70%] lg:max-w-[960px] opacity-5 mix-blend-soft-light"
+  />
+</div>
+
           </div>
 
           {/* Calendly Embed Section - Takes Full Space */}
