@@ -6,49 +6,33 @@ const Download = () => {
   return (
     <section>
       <Element
-        name="download"
-        className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
+        name="About us"
+        className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16 z-10"
       >
         <div className="container">
           <div className="flex items-center">
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
-              <div className="mb-10">
-                <img
-                  src="/images/xora.svg"
-                  width={160}
-                  height={55}
-                  alt="xora"
-                />
-              </div>
+            <div className=" relative z-2 ">
+          <div>
+          <div className="caption small-2 uppercase text-p3">
+About Me            </div>
+
+            <h3 className="h3 max-md:h5 max-w-640 max-lg:max-w-md  text-p4">
+Hatim El Abdellaoui            </h3>
+<div className="caption1 small-3 uppercase ">
+software engineer            </div>
+            <p className="body-1 max-lg:max-w-sm">
+              You've got questions, we've got answers.
+            </p>
+          </div>
+
+        </div>
 
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we've got you covered.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vel augue, interdum quam et, faucibus ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vel augue, interdum quam et, faucibus ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vel augue, interdum quam et, faucibus ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vel augue, interdum quam et, faucibus ex.
               </p>
 
-              <ul className="flex flex-wrap items-center gap-6">
-                {links.map(({ id, url, icon }) => (
-                  <li
-                    key={id}
-                    className="download_tech-link download_tech-link_last-before download_tech-link_last-after"
-                  >
-                    <a
-                      href={url}
-                      className="size-22 download_tech-icon_before relative flex items-center justify-center rounded-half border-2 border-s3 bg-s1 transition-borderColor duration-500"
-                    >
-                      <span className="absolute -top-2 rotate-90">
-                        <Marker />
-                      </span>
-                      <img
-                        src={"/images/lines.svg"}
-                        alt="lines"
-                        className="absolute size-13/20 object-contain"
-                      />
-                      <span className="download_tech-icon">{icon}</span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
+            
             </div>
 
             <div className="mb-10 max-md:hidden">
@@ -58,25 +42,16 @@ const Download = () => {
                   <span className="download_preview-dot left-11 bg-s3" />
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
-                  <img
-                    src="/images/screen.jpg"
-                    width={855}
-                    height={655}
+                  <div
                     alt="screen"
-                    className="rounded-xl"
+                    className="rounded-xl w-[655px] h-[455px]"
                   />
                 </div>
               </div>
             </div>
           </div>
 
-          <ul className="mt-24 flex justify-center max-lg:hidden">
-            {logos.map(({ id, url, width, height, title }) => (
-              <li key={id} className="mx-10">
-                <img src={url} width={width} height={height} alt={title} />
-              </li>
-            ))}
-          </ul>
+         
         </div>
       </Element>
     </section>

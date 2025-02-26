@@ -11,8 +11,21 @@
 
   body {
     @apply font-poppins text-[16px] tracking-[-0.03em] text-p5;
+    background-image: url("/images/hero.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: cover
   }
-
+  .caption1 {
+    margin-bottom: 1.25rem;
+      text-transform: uppercase;
+      --tw-text-opacity: 1;
+      color: rgb(46 241 255 / var(--tw-text-opacity, 1));
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.6em;
+    }
   a {
     @apply no-underline;
   }
@@ -216,7 +229,7 @@
   }
 
   .pricing-bg {
-    @apply pointer-events-none absolute -bottom-16 left-[calc(50%-480px)] z-2 mx-auto w-960;
+    @apply pointer-events-none absolute  left-[calc(50%-480px)] z-2 mx-auto w-960;
   }
 
   .pricing-plan_first {
@@ -256,7 +269,7 @@
   }
 
   .testimonials_inner-before {
-    @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-s2 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
+    @apply before:pointer-events-none before:absolute before:-top-8 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-s2 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
   }
 
   .testimonials_inner-after {

@@ -1,27 +1,49 @@
 export const features = [
-  {
-    id: "0",
-    icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
-    button: {
-      icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+    {
+      id: "0",
+      icon: "/images/feature-1.png",
+      caption: "Optimization Omniprésence",
+      title: "Optimization Omniprésence dans le marché digital",
+      text: "Maximisez votre visibilité et impactez un large public avec des stratégies de marque haut de gamme. Atteignez vos clients où qu’ils soient et renforcez votre présence en ligne.",
+      button: {
+        icon: "/images/magictouch.svg",
+        title: "Watch the demo",
+      },
     },
-  },
-  {
-    id: "1",
-    icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
-    button: {
-      icon: "/images/docs.svg",
-      title: "Read the docs",
+    {
+      id: "1",
+      icon: "/images/feature-2.png",
+      caption: "Organisation ",
+      title: "Gestion centralisée et efficace",
+      text: "Optimisez la gestion de vos contacts et de vos opérations avec des systèmes intelligents. Suivez chaque interaction et améliorez l’efficacité de votre entreprise.",
+      button: {
+        icon: "/images/docs.svg",
+        title: "Read the docs",
+      },
     },
-  },
-];
+    {
+      id: "2",
+      icon: "/images/feature-2.png",
+      caption: "Automatisation",
+      title: "Automatisation des tâches",
+      text: "Réduisez le travail manuel et optimisez vos processus pour gagner du temps. Laissez la technologie gérer les tâches répétitives pendant que vous vous concentrez sur l’essentiel.",
+      button: {
+        icon: "/images/docs.svg",
+        title: "Read the docs",
+      },
+    },
+    {
+      id: "3",
+      icon: "/images/feature-2.png",
+      caption: "Data-Driven",
+      title: "Data-Driven Decision Making",
+      text: "Exploitez la puissance des données pour orienter vos choix stratégiques. Analysez les tendances, anticipez les opportunités et optimisez vos performances avec une approche basée sur les insights.",
+      button: {
+        icon: "/images/docs.svg",
+        title: "Read the docs",
+      },
+    },
+  ];
 
 export const details = [
   {
@@ -49,63 +71,63 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "Lorem ipsum dolor sit amet?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tortor non risus tincidunt facilisis.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Curabitur vitae lacus nec nisi aliquet?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Curabitur vitae lacus nec nisi aliquet ultricies. Phasellus convallis urna id justo auctor, nec interdum mauris consequat.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Vestibulum feugiat dui non nulla?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Vestibulum feugiat dui non nulla tincidunt, sed tincidunt metus elementum. Aenean rhoncus eros at elit suscipit tempus.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Mauris at elit ut sapien sagittis?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Mauris at elit ut sapien sagittis dapibus. Ut ornare, arcu a luctus tempus, nunc nulla suscipit ex, id maximus enim magna ac ligula.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Nunc commodo lacus id justo fermentum?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Nunc commodo lacus id justo fermentum, eget tincidunt elit viverra. Nullam porta massa vel nisi tincidunt, nec laoreet magna placerat.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "Duis dictum libero non justo?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Duis dictum libero non justo efficitur, ac facilisis nunc efficitur. Nam in massa sed tortor venenatis sagittis non ut metus.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Aenean sollicitudin purus ac magna?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Aenean sollicitudin purus ac magna cursus, ac tristique augue facilisis. Etiam lacinia dolor eget dui efficitur, eget consequat metus posuere.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "Integer vel augue non sapien?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Integer vel augue non sapien mollis vestibulum. Phasellus et est vitae odio fermentum efficitur non eu turpis.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "Sed malesuada velit non metus?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Sed malesuada velit non metus fringilla, eu rhoncus mauris consectetur. Donec cursus dui nec urna varius laoreet.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "Sed malesuada velit non metus?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Sed malesuada velit non metus fringilla, eu rhoncus mauris consectetur. Donec cursus dui nec urna varius laoreet.",
   },
 ];
 
@@ -164,7 +186,7 @@ export const testimonials = [
     role: "Globalnomads",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
   {
     id: "1",
@@ -172,7 +194,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
   {
     id: "2",
@@ -180,7 +202,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
   {
     id: "3",
@@ -188,7 +210,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
   {
     id: "4",
@@ -196,7 +218,7 @@ export const testimonials = [
     role: "Floclips",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
   {
     id: "5",
@@ -204,7 +226,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+"Lorem's support team is simply unbeatable! They’re like my digital guardians, always ready to assist whenever I need them.",
   },
 ];
 
