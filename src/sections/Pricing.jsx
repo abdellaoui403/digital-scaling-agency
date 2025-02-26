@@ -15,7 +15,7 @@ const Pricing = () => {
       <Element name="pricing" className="w-full h-full">
         <div className="container w-full h-full flex flex-col">
           {/* Header Section */}
-          <div className="flex flex-col justify-center items-center text-center py-10">
+          <div className="flex flex-col justify-center items-center text-center py-20">
             <div className="caption small-2 uppercase text-p3">
               Reach Us
             </div>
@@ -45,7 +45,7 @@ const Pricing = () => {
             <div 
               className="calendly-inline-widget w-full h-full" 
               data-url="https://calendly.com/abdellaoui403/30min"
-              style={{ minWidth: "320px", minHeight: "100vh", width: "100%", height: "100%" }}
+              style={{ minWidth: "320px", minHeight: "120vh", width: "100%", height: "100%" }}
             ></div>
           </div>
         </div>
