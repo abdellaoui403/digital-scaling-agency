@@ -11,7 +11,7 @@ const Pricing = () => {
   }, []);
 
   return (
-    <section className="w-full h-[150vh] flex pt-[10rem] flex-col" id="calendly">
+    <section className="w-full h-[180vh] flex pt-[10rem] flex-col" id="calendly">
       <Element name="pricing" className="w-full h-full">
         <div className="container w-full h-full flex flex-col">
           {/* Header Section */}
