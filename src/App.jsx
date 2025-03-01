@@ -3,9 +3,11 @@ import Hero from "./sections/Hero.jsx";
 import Features from "./sections/Features.jsx";
 import Pricing from "./sections/Pricing.jsx";
 import Faq from "./sections/Faq.jsx";
-import Testimonials from "./sections/Testimonials.jsx";
+import Portfolio from "./sections/Portfolio.jsx";
 import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
+import Testimonial from "./sections/Testimonial.jsx";
+
 
 const App = () => {
   return (
@@ -14,10 +16,10 @@ const App = () => {
       <Hero />
       <Features />
       <Faq />
-      <Testimonials />
+      <Portfolio />
       <Download />
+      <Testimonial/>
       <Pricing />
-
       <Footer />
     </main>
   );

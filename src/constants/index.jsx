@@ -178,8 +178,41 @@ export const plans = [
     logo: "/images/plan-3.png",
   },
 ];
-
 export const testimonials = [
+  {
+    id: "0",
+    name: "John Doe",
+    role: "Software Engineer",
+    avatarUrl: "/images/testimonials/default-avatar.png", // Default avatar image
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "1",
+    name: "Jane Smith",
+    role: "Product Manager",
+    avatarUrl: "/images/testimonials/default-avatar.png", // Default avatar image
+    comment:
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: "2",
+    name: "Alice Johnson",
+    role: "Data Analyst",
+    avatarUrl: "/images/testimonials/default-avatar.png", // Default avatar image
+    comment:
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  },
+  {
+    id: "3",
+    name: "Bob Williams",
+    role: "UX Designer",
+    avatarUrl: "/images/testimonials/default-avatar.png", // Default avatar image
+    comment:
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+];
+export const portfolios = [
   {
     id: "0",
     name: "Jessica Saunders",
